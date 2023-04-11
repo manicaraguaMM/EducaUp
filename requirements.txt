@@ -1,0 +1,6 @@
+requests
+requests[socks]
+bs4
+https://github.com/ObisoftDev/pyobidl/archive/master.zip
+https://github.com/ObisoftDev/pyobigram/archive/master.zip
+pymysql
