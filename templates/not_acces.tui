@@ -1,0 +1,11 @@
+##ui_template es un mini lenguaje de interface de texto para telegram
+
+@section __base
+
+😑 Usted no tiene acceso a este bot 😑
+
+@endsection
+
+@markup
+@button text='⚙️Contactar  Soporte⚙️' url='https://t.me/obisoftt'
+@endmarkup

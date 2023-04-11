@@ -1,0 +1,35 @@
+﻿##ui_template es un mini lenguaje de interface de texto para telegram
+
+@section downloading
+@define html
+⬇️Descargando Archivo⬇️....
+➤ Archivo: @>>filename
+➤ Total: @>>total
+➤ Descargado: @>>index
+➤ Velocidad: @>>speed/s
+@endsection
+
+@section starting
+⏳Procesando Enlace🔗...
+@endsection
+
+@section starting_file
+⏳Procesando Archivo📄...
+@endsection
+
+@section error
+💢Se produjo un error💢
+@endsection
+
+@section error_nofile
+💢No se pudo procesar (archivo)💢
+@endsection
+
+@section cancel
+❎Se cancelo La Tarea
+📄@>>down_filename
+@endsection
+
+@markup
+@button text='🚫Cancelar  Tarea🚫' callback='/cancel_@>>task_id'
+@endmarkup

@@ -1,0 +1,21 @@
+﻿##ui_template es un mini lenguaje de interface de texto para telegram
+
+@section __base
+
+⚙️Configuraciones De Usuario⚙️
+➤ Username: @@>>username
+➤ CloudUsername: @>>cloud_username
+➤ CloudPassword: @>>cloud_password
+➤ CloudHost: @>>cloud_host
+➤ CloudRepoID: @>>cloud_repo_id
+➤ Zips : @>>user_zips
+
+@if is_admin
+➤ Admin: SI
+@endif
+
+@if not is_admin
+➤ Admin: NO
+@endif
+
+@endsection

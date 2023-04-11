@@ -1,0 +1,13 @@
+﻿##ui_template es un mini lenguaje de interface de texto para telegram
+
+@section permed
+🌈@@>>username -> @@>>perm_user Acceso Permitido
+@endsection
+
+@section error
+🛑@@>>username -> @@>>perm_user Error De Acceso
+@endsection
+
+@section exist
+🉑 Ya @@>>perm_user Tiene Acceso 🉑
+@endsection

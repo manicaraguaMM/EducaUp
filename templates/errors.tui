@@ -1,0 +1,13 @@
+﻿##ui_template es un mini lenguaje de interface de texto para telegram
+
+@section err_url
+
+❌ Error /rup URL ❌
+
+@endsection
+
+@section err_file
+
+❌ Error FILE ❌
+
+@endsection

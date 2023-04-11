@@ -1,0 +1,13 @@
+﻿##ui_template es un mini lenguaje de interface de texto para telegram
+
+@section baned
+🌈@@>>ban_user Baneado Permanente
+@endsection
+
+@section error
+🛑 @@>>ban_user Ya no existe 🛑
+@endsection
+
+@section error_lvl
+🛑No Permitido Para @@>>ban_user (lvl:@>>ban_lvl)🛑
+@endsection
