@@ -1,9 +1,9 @@
 import os
 # Bot
-BOT_TOKEN = ''
-TG_API_ID = ''
-TG_API_HASH = ''
-TG_ADMIN = 'obisoftt'
+BOT_TOKEN = '5370156751:AAH3iDEPtS4RYn4PPMA0C6n0-JGVK4f-aUU'
+TG_API_ID = '28235803'
+TG_API_HASH = 'cf5a188dc4684d2def51c31a68ff036f'
+TG_ADMIN = 'DayanAdmin59'
 
 # Database
 DB_LOCAL = False
